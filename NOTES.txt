@@ -1,0 +1,32 @@
+Elastic Search Docs
+
+Project 1:
+1. https://www.youtube.com/watch?v=lKanpfkhxv0
+
+a) create django project and app, then superuser
+b) Create docker-compose.yml and docker compose up
+c) Add model to admin and insert data
+d) In settings.py, add 'django_elasticsearch_dsl' to INSTALLED_APPS and this
+"
+ELASTICSEARCH_DSL = {
+    'default': {
+        'hosts': 'http://localhost:9200'
+    }
+}
+"
+e) Create documents.py in app folder
+f) python manage.py search_index --rebuild
+g) Create a template for home page
+h) Create a view and url for it.
+
+
+
+Project 2: 
+1. https://dev.to/robinmuhia/elastic-search-in-django-using-elasticsearchdsl-i00
+2. https://dev.to/robinmuhia/implementation-of-elastic-search-in-django-32d6
+
+Project 3:
+1. https://medium.com/@tech_with_mike/elasticsearch-with-django-quick-tutorial-with-video-e75263f813c7
+
+More to refer:
+1. https://testdriven.io/blog/django-drf-elasticsearch/
